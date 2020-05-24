@@ -242,9 +242,11 @@ sudo snap install keepassxc
 sudo apt-get install nautilus-dropbox -y
 sudo nautilus --quit
 
-# Install ClipIt clipboard manager
-    printf "\n>>> ClipIt clipboard manager is going to be installed >>>\n"
-sudo apt-get install clipit -y
+# Install Diodon clipboard manager
+    printf "\n>>> Diodon clipboard manager is going to be installed >>>\n"
+sudo apt install diodon -y
+
+#@todo add key binding configuration ctrl+alt+h to show items.
 
 # Install Slack messanger
     printf "\n>>> Slack messanger is going to be installed >>>\n"
