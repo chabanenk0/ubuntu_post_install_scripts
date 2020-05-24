@@ -86,6 +86,7 @@ sed -i "s/\/misc\/share\/ssl/\/home\/$USER\/misc\/certs/g" docker-compose.yml
 # run docker-compose this way because we need not to log out in order to refresh permissions
 sudo docker-compose up -d
 echo "
+127.0.0.1 traefik.docker.local
 127.0.0.1 phpmyadmin.docker.local" | sudo tee -a /etc/hosts
 
 # Install PHP common packages
